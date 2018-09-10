@@ -80,21 +80,6 @@ class Hermes {
 	//Event handler
 	lexicon(myVerb, myInvocation) {
 		switch (myVerb) {
-			case Mercury.ERASE:
-				delete Hermetica[myInvocation];
-			break;
-			case Mercury.EXECUTE:
-				var myAct = new Act(myInvocation);
-
-				Hermetica.action.push(myAct);
-			break;
-			case Mercury.TERMINATE:
-				var myIndex = Hermetica.action.indexOf(myInvocation);
-
-				if (myIndex >= 0) {
-					Hermetica.action.splice(myIndex, 1);
-				}
-			break;
 		}
 	}
 
