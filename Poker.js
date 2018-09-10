@@ -69,7 +69,7 @@ function lexicon(myVerb, myInvocation) {
 							myRankMark = val;
 						});
 						//Show results on theScoreboard
-						if (mySequenceCount === 5) {//STRAIGHT WIN!
+						if (mySequenceCount >= 5) {//STRAIGHT WIN!
 							theScoreboard.html("A Straight!</br>You've won 500 points!</br>Play again.");
 						} else if (myPair) {
 							theScoreboard.html("A Pair!</br>You've won 100 points!</br>Play again.");
