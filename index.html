@@ -1,0 +1,41 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>Video Poker</title>
+
+		<link rel="stylesheet" type="text/css" href="main.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="cosmos.js" language="javascript"></script>
+		<script src="exoterics.js" language="javascript"></script>
+		<script src="esoterics.js" language="javascript"></script>
+	</head>
+
+	<body>
+		<div id="load-message">Loading Game...</div>
+		<div id="gameboard">
+			<div id="deal" class="button">
+				<span class="new-game title">Deal</span>
+				<span class="new-card title">Go</span>
+			</div>
+			<div id="scoreboard">Welcome to Video Poker!</div>
+			<div id="player-hand">
+			</div>
+		</div>
+
+		<div id="template">
+			<div class="card">
+				<div class="rank NW"></div>
+				<div class="suit"></div>
+				<div class="rank SE"></div>
+				<div class="toggle button"></div>
+			</div>
+			<div class="card-slot">
+				<div class="keep title">Keep</div>
+				<div class="discard title">Discard</div>
+			</div>
+		</div>
+	</body>
+
+	<script src="Poker.js" language="javascript"></script>
+</html>
